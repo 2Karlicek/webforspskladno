@@ -63,6 +63,7 @@
 	<br>
 	<br>
 	<h1>Pro prohlížení se přihlaste, prosím.</h1>
+	<a href="prihlaseni.php">prihlaste se</a>
 	<br>
 	<br>
 	<br>
