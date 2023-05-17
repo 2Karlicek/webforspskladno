@@ -30,6 +30,7 @@
     
 
     <iframe class="video" src="https://www.youtube.com/embed/yUz8I9-WKx8" title="Volný blok song xD xD xD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<p>Je častým účastníkem demonstrací proti bídě</p>
 	</div>
 	<?php
 		include "including2.php"
