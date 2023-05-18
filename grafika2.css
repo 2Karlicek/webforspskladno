@@ -82,7 +82,7 @@ display: table;
     width: 60%; /* The width is 60%, by default */
     height:100%;
     
-    border: 2px solid black;
+    border: none;
     text-align: center;
   }
 
