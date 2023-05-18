@@ -29,31 +29,7 @@
 	Andrej Babiš je český politik a podnikatel slovenského
         původu, od prosince 2017 do prosince 2021 předseda
         vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
-        původu, od prosince 2017 do prosince 2021 předseda
-        vlády České republiky. Od října 2013 je poslancem
-        Parlamentu České republiky a v letech
+        Parlamentu České republiky a v letech.
     </p>
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Andrej_Babi%C5%A1_2015_Praha.JPG/800px-Andrej_Babi%C5%A1_2015_Praha.JPG">
