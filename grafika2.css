@@ -76,7 +76,7 @@ display: table;
     width: 100%;
   }
   .main {
-    background-color: #219285;
+    background-color: #f1f1f1;
     padding: 20px;
     float: left;
     width: 60%; /* The width is 60%, by default */
