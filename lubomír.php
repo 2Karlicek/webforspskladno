@@ -15,6 +15,7 @@
 	?>
 
 	<div class="main">
+		<h1>lubomír volný</h1>
 	<div class="row">
 		<div class="column"><a href="https://www.facebook.com/people/Lubom%C3%ADr-Voln%C3%BD/pfbid02wENU8D5tjq5u9sbN7uQUXT4yfyya65xzZFjyZ9xVZunmfNCpFf56GFh64bQACjkLl/" target="_blank"><img  src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"></a></div>
 		<div class="column"><a href="https://twitter.com/lubomir_volny" target="_blank"><img  src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" ></a></div>
