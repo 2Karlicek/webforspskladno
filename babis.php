@@ -26,7 +26,31 @@
 		<div class="column"><a href="https://www.youtube.com/@anobudelip" target="_blank"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" ></a></div>
 	</div>
     <p>
-        Andrej Babiš je český politik a podnikatel slovenského
+	Andrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
+        původu, od prosince 2017 do prosince 2021 předseda
+        vlády České republiky. Od října 2013 je poslancem
+        Parlamentu České republiky a v letechAndrej Babiš je český politik a podnikatel slovenského
         původu, od prosince 2017 do prosince 2021 předseda
         vlády České republiky. Od října 2013 je poslancem
         Parlamentu České republiky a v letech
