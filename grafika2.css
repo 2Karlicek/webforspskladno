@@ -76,7 +76,7 @@ display: table;
     width: 100%;
   }
   .main {
-    background-color: #4992bd;
+    background-color: #618fe4;
     padding: 20px;
     float: left;
     width: 60%; /* The width is 60%, by default */
@@ -90,14 +90,14 @@ display: table;
   }
 
   .tlacitko {
-      font-size: 16px;
-      color: white;
-      background-color: blue;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
+      transform: scale(1.5); 
+      margin-right: 5px; 
+}
+    .my-radio:checked {
+  
   }
+
+
   .main img {
     width: 80%;
     
