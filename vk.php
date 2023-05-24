@@ -17,7 +17,7 @@
 
 	<div class="main">
 	<form method="post" action="vk.php">
-    <label>Jste proti diktátu Bruselu?</label>
+    <label>Jste proelu?</label>
 	<br>
 	
 	<label for="ano">

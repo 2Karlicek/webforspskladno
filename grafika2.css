@@ -64,7 +64,7 @@ display: table;
 
   }
   .left {
-    background-color: #f1f1f1;
+    background-color: #b41e1e;
     padding: 20px;
     float: left;
     width: 20%; /* The width is 20%, by default */
@@ -76,16 +76,28 @@ display: table;
     width: 100%;
   }
   .main {
-    background-color: #f1f1f1;
+    background-color: #4992bd;
     padding: 20px;
     float: left;
     width: 60%; /* The width is 60%, by default */
     height:100%;
     
-    border: none;
+    border: ;
     text-align: center;
+    font-size: xx-large;
+    
+
   }
 
+  .tlacitko {
+      font-size: 16px;
+      color: white;
+      background-color: blue;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  }
   .main img {
     width: 80%;
     
@@ -96,7 +108,7 @@ display: table;
   }
 
   .right {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     padding: 20px;
     float: left;
     width: 20%; /* The width is 20%, by default */
