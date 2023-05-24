@@ -19,7 +19,7 @@
 	?>
 
 	<div class="main">
-		<h1>Babiš</h1>
+		<h1>Andrej Babiš</h1>
 	<div class="row">
 		<div class="column"><a href="https://www.facebook.com/AndrejBabis/?locale=cs_CZ" target="_blank"><img  src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"></a></div>
 		<div class="column"><a href="https://twitter.com/AndrejBabis" target="_blank"><img  src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" ></a></div>
