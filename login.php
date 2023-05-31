@@ -141,14 +141,31 @@
 						if(!$result){
 							die("bad");
 						}
+
+						$verificationCode = generateVerificationCode();
+						echo $verificationCode;
+						sendVerificationCode($email2, $verificationCode);
 					}
 					else {
 						echo"špatně zadaná hesla.";
-					}
-					
-				
-            
-        }	
+					} 
+        }
+		function generateVerificationCode() {
+			// Implementujte kód pro generování ověřovacího kódu, např. náhodné číslo nebo kombinace písmen a číslic
+			// Zde je příklad generování náhodného šestimístného čísla:
+			$verificationCode = rand(100000, 999999);
+			return $verificationCode;
+		}
+		
+		function sendVerificationCode($email, $verificationCode) {
+			// Implementujte kód pro odeslání e-mailu s ověřovacím kódem
+			// Zde je příklad pomocí vestavěné funkce mail() v PHP:
+			$subject = "Ověřovací kód";
+			$message = "Váš ověřovací kód je: " . $verificationCode;
+			$headers = "From: your_email@example.com"; // Nahraďte svou vlastní e-mailovou adresu
+			mail($email, $subject, $message, $headers);
+		}
+		
 				?>
 	</body>
 </html>

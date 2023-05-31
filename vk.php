@@ -1,3 +1,7 @@
+<?php
+session_start();
+if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -125,17 +129,54 @@
 	<br>
 
 
-
-
-
 	<button type="submit">Odeslat</button>
 
-
-
-
-
-
    </form>
+
+
+   <?php
+            } else {
+              ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="grafika2.css">
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+
+
+	<?php
+	include "including.php";
+
+	?>
+
+<div class="main">
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Pro prohlížení se přihlaste, prosím.</h1>
+	<a href="prihlaseni.php">prihlaste se</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+
+</div>
+
+<?php
+
+include "including2.php"
+?>
+<?php 
+            }
+?>
+
 
    <?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {

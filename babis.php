@@ -74,6 +74,10 @@
 
 </div>
 
+<?php
+
+include "including2.php"
+?>
 <?php 
             }
 ?>
