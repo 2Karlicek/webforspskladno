@@ -1,7 +1,3 @@
-<?php
-session_start();
-if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -55,11 +51,11 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="0"> ANO
+		<input type="radio" class="but" id="ano" name="group2" value="0"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="1"> NE
+	<input type="radio" class="but" id="ne" name="group2" value="1"> NE
 	</label>
 	<br>
 	<br>
@@ -71,11 +67,11 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group3" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group3" value="0"> NE
 	</label>
 	<br>
 	<br>
@@ -86,11 +82,11 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group4" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group4" value="0"> NE
 	</label>
 	<br>
 	<br>
@@ -101,11 +97,11 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group5" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group5" value="0"> NE
 	</label>
 
 
@@ -118,11 +114,11 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group6" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group6" value="0"> NE
 	</label>
 	<br>
 
@@ -135,6 +131,18 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 	
 	<label for="ano">
+		<input type="radio" class="but" id="ano" name="group7" value="0"> ANO
+	</label>
+	<br>
+	<label for="ne">
+	<input type="radio" class="but" id="ne" name="group7" value="1"> NE
+	</label>
+	<br>
+
+	<label class=zvetseny-text></label>
+	<br>
+	
+	<label for="ano">
 		<input type="radio" class="but" id="ano" name="group1" value="0"> ANO
 	</label>
 	<br>
@@ -144,54 +152,16 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 
 
+
+
 	<button type="submit">Odeslat</button>
 
+
+
+
+
+
    </form>
-
-
-   <?php
-            } else {
-              ?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="grafika2.css">
-		<meta charset="utf-8">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-
-
-
-	<?php
-	include "including.php";
-
-	?>
-
-<div class="main">
-	<br>
-	<br>
-	<br>
-	<br>
-	<h1>Pro prohlížení se přihlaste, prosím.</h1>
-	<a href="prihlaseni.php">prihlaste se</a>
-	<br>
-	<br>
-	<br>
-	<br>
-	
-	
-
-</div>
-
-<?php
-
-include "including2.php"
-?>
-<?php 
-            }
-?>
-
 
    <?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
