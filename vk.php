@@ -47,7 +47,7 @@
 	<br>
 	<br>
 
-	<<label class=zvetseny-text>Jste pro zavedení eura?</label>
+	<label class=zvetseny-text>Jste pro zavedení eura?</label>
 	<br>
 	
 	<label for="ano">
