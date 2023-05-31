@@ -5,10 +5,26 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 <!DOCTYPE html>
 <html>
 	<head>
+
 		<link rel="stylesheet" href="grafika2.css">
 		<meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<style>
+			  .but { 
+	  width: 20px;
+	  height: 20px; 
+	  vertical-align: middle;
+  	margin-bottom: 5px;
+	font-size: 20px;
+   					}
+	.but {
 
+	}
+	.zvetseny-text {
+        font-size: 35px;
+    }
+
+		</style>
 	</head>
 	<body>
 
@@ -21,29 +37,29 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 
 	<div class="main">
 	<form method="post" action="vk.php">
-    <label>Jste proti diktátu Bruselu?</label>
+    <label class=zvetseny-text>Jste proti diktátu Bruselu?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano" name="group1" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne" name="group1" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
 	</label>
 	<br>
 	<br>
 	<br>
 
-	<label>Jste pro zavedení Eura?</label>
+	<<label class=zvetseny-text>Jste pro zavedení eura?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano1" name="group2" value="0"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="0"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne1" name="group2" value="1"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="1"> NE
 	</label>
 	<br>
 	<br>
@@ -51,47 +67,46 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 
 
 
-	<label>Je naše země nemocná?</label>
+	<label class=zvetseny-text>Je naše země nemocná?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano3" name="group3" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne3" name="group3" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
 	</label>
 	<br>
 	<br>
 	<br>
 
 
-	<label>Jste proti migraci</label>
+	<label class=zvetseny-text>Jste proti migraci?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano4" name="group4" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne4" name="group4" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
 	</label>
 	<br>
 	<br>
 	<br>
 
 
-	<label>Chcete znovuzrodit socialismus</label>
+	<label class=zvetseny-text>Chcete znovuzrodit socialismus</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano5" name="group5" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne5" name="group5" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
 	</label>
-	<br>
 
 
 	<br>
@@ -99,15 +114,15 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 
 
-	<label>Je podle Vás každý další koupený kebab jen dalším krokem k burkám</label>
+	<label class=zvetseny-text>Je podle Vás každý další kopený kebab je dalším krokem k burkám?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano5" name="group6" value="1"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne5" name="group6" value="0"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="0"> NE
 	</label>
 	<br>
 
@@ -116,15 +131,15 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 
 
-	<label>Jaký máte názor na legalizaci marihuany pro rekreační účely?</label>
+	<<label class=zvetseny-text>Měla by podle Vás být legalizováná marihuana po lékařské účely?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" id="ano7" name="group7" value="0"> ANO
+		<input type="radio" class="but" id="ano" name="group1" value="0"> ANO
 	</label>
 	<br>
 	<label for="ne">
-		<input type="radio" id="ne7" name="group7" value="1"> NE
+	<input type="radio" class="but" id="ne" name="group1" value="1"> NE
 	</label>
 	<br>
 

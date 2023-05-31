@@ -82,7 +82,7 @@ display: table;
     width: 60%; /* The width is 60%, by default */
     height:100%;
     
-    border: none;
+    border: 0px solid black;
     text-align: center;
   }
 
@@ -303,5 +303,4 @@ display: block;
   margin-right: 30%;
 }
 }
-
 
