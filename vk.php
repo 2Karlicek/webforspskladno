@@ -131,7 +131,7 @@ if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])){
 	<br>
 
 
-	<<label class=zvetseny-text>Měla by podle Vás být legalizováná marihuana po lékařské účely?</label>
+	<label class=zvetseny-text>Měla by podle Vás být legalizováná marihuana po lékařské účely?</label>
 	<br>
 	
 	<label for="ano">
