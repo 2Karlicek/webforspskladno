@@ -7,19 +7,41 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1">	
 		<style>
 			  .but { 
-	  width: 20px;
-	  height: 20px; 
+	  width: 25px;
+	  height: 25px; 
 	  vertical-align: middle;
   	margin-bottom: 5px;
-	font-size: 20px;
+	font-size: 25px;
    					}
 	.but {
 
 	}
+	@media screen and (max-width: 600px) {
+      .but {width: 15px;
+	  height: 15px; 
+	  vertical-align: middle;
+  	margin-bottom: 5px;
+	font-size: 15px;
+        
+      }
+      }
+	
 	.zvetseny-text {
-        font-size: 35px;
+    
+	
+		font-size: 35px;
     }
+	@media screen and (max-width: 600px) {
+      .zvetseny-text {
+        font-size: 20px;
+      }
+      }
 
+	  @media screen and (min-width: 1200px) {
+      .default-text {
+        font-size: 40px;
+      }
+    } 
 		</style>
 	</head>
 	<body>
@@ -139,19 +161,41 @@
 	</label>
 	<br>
 
-	<label class=zvetseny-text></label>
+	<label class=zvetseny-text>Myslíte si, že by politici měli absolvovat povinný kurz stand-up komedie, aby byli lepší ve vtipných rétorických otázkách?</label>
 	<br>
 	
 	<label for="ano">
-		<input type="radio" class="but" id="ano" name="group1" value="0"> ANO
+		<input type="radio" class="but" id="ano" name="group8" value="1"> ANO
 	</label>
 	<br>
 	<label for="ne">
-	<input type="radio" class="but" id="ne" name="group1" value="1"> NE
+	<input type="radio" class="but" id="ne" name="group8" value="0"> NE
 	</label>
 	<br>
 
+	<label class=zvetseny-text>Myslíte si že, by mělo být zřízeno ministerstvo pro výzkum a vývoj "bezchybných volebních slibů"?</label>
+	<br>
+	
+	<label for="ano">
+		<input type="radio" class="but" id="ano" name="group9" value="1"> ANO
+	</label>
+	<br>
+	<label for="ne">
+	<input type="radio" class="but" id="ne" name="group9" value="0"> NE
+	</label>
+	<br>
 
+	<label class=zvetseny-text>Jste pro zavedení POVINÝCH gramotnostních testů před možností volit?</label>
+	<br>
+	
+	<label for="ano">
+		<input type="radio" class="but" id="ano" name="group10" value="0"> ANO
+	</label>
+	<br>
+	<label for="ne">
+	<input type="radio" class="but" id="ne" name="group10" value="1"> NE
+	</label>
+	<br>
 
 
 	<button type="submit">Odeslat</button>
@@ -172,6 +216,10 @@
 		$selected_option5 = isset($_POST["group5"]) ? $_POST["group5"] : "";
 		$selected_option6 = isset($_POST["group6"]) ? $_POST["group6"] : "";
 		$selected_option7 = isset($_POST["group7"]) ? $_POST["group7"] : "";
+		$selected_option7 = isset($_POST["group8"]) ? $_POST["group8"] : "";
+		$selected_option7 = isset($_POST["group9"]) ? $_POST["group9"] : "";
+		$selected_option7 = isset($_POST["group10"]) ? $_POST["group10"] : "";
+
 
 		$variable = 0;
 		if ($selected_option == 1) {
