@@ -216,9 +216,9 @@
 		$selected_option5 = isset($_POST["group5"]) ? $_POST["group5"] : "";
 		$selected_option6 = isset($_POST["group6"]) ? $_POST["group6"] : "";
 		$selected_option7 = isset($_POST["group7"]) ? $_POST["group7"] : "";
-		$selected_option7 = isset($_POST["group8"]) ? $_POST["group8"] : "";
-		$selected_option7 = isset($_POST["group9"]) ? $_POST["group9"] : "";
-		$selected_option7 = isset($_POST["group10"]) ? $_POST["group10"] : "";
+		$selected_option8 = isset($_POST["group8"]) ? $_POST["group8"] : "";
+		$selected_option9 = isset($_POST["group9"]) ? $_POST["group9"] : "";
+		$selected_option10 = isset($_POST["group10"]) ? $_POST["group10"] : "";
 
 
 		$variable = 0;
@@ -245,6 +245,15 @@
 			$variable += 1;}	
 
 		if ($selected_option7 == 1) {
+			$variable += 1;}
+			
+		if ($selected_option8 == 1) {
+			$variable += 1;}
+
+		if ($selected_option9 == 1) {
+			$variable += 1;}
+		
+		if ($selected_option10 == 1) {
 			$variable += 1;}
 		
 		else {
