@@ -1,4 +1,4 @@
-
+<!-- následující php kód ověří přihlášení -->
 <?php
 
 	session_start();
