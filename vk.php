@@ -212,7 +212,7 @@
 
 
    </form>
-
+<!-- nasledujicí kod počíta, nepřepisovat -->
    <?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$selected_option = isset($_POST["group1"]) ? $_POST["group1"] : "";
