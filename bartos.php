@@ -16,7 +16,7 @@ $_SESSION['previous_page'] = $_SERVER['REQUEST_URI'];
 	<body>
 
 
-
+	<!-- následující php kód importne navbar -->
 	<?php
 	include "including.php";
 
