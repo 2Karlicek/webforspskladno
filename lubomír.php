@@ -2,6 +2,7 @@
 <?php
 
 	session_start();
+	$_SESSION['previous_page'] = $_SERVER['REQUEST_URI'];
 	if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])) {
 		?>
 
