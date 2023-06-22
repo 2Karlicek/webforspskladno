@@ -14,7 +14,7 @@ session_start();
 	<body>
 
 
-
+<!-- následující php kód importne navbar -->
 	<?php
 	include "including.php";
 
