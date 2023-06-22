@@ -2,6 +2,7 @@
             
             if (isset($_SESSION['uzivatel']) && isset($_SESSION['heslo'])) {
               ?>
+<!-- toto vytvoří navbar -->
               <nav>
     <ul class="horizontal" style="background-color: gold;">
       <div id="rightside">
@@ -43,7 +44,7 @@
     </ul>
   </nav>
   <center><h1>POLITIKA ČR</h1></center>
-
+   <!-- toto vytvoří levý sloupec -->         
         <div class="left">
           <center>
             <h3 class="first">Reklama</h3>
